@@ -1,3 +1,5 @@
+
+
 # Generic-Partition-Tree
 
 ## A C# library for partition trees
@@ -8,6 +10,8 @@ It is expected that a partition tree expands (covering more space) as required. 
 Partition trees are commonly used, for example, as a way of grouping related space points (2D or 3D), providing quick lookup over a set points on a given radius of a certain position. Since each section knows through its boundary exactly which space it covers, there is no need to consult many points outside the intended search range.
 
 This library implement a generic approach for partition trees and provides usage examples for partition trees in 2D (QuadTree) and 3D (OctTree).
+
+I would like to give a special thanks to [Pedro Silva](https://github.com/DeadalusVIII) and [João Jacob](https://github.com/kubinha), who helped me in the making of this repository.
 
 ### Partition Tree Files
 
