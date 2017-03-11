@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic Partition Tree", "Generic Partition Tree.csproj", "{29664AD4-BC82-46B1-B9A5-37257CEF8932}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic Partition Tree Tests", "..\Generic Partition Tree Tests\Generic Partition Tree Tests.csproj", "{B96FECA4-A046-45A6-ACE1-71D58694F75D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29664AD4-BC82-46B1-B9A5-37257CEF8932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29664AD4-BC82-46B1-B9A5-37257CEF8932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29664AD4-BC82-46B1-B9A5-37257CEF8932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29664AD4-BC82-46B1-B9A5-37257CEF8932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B96FECA4-A046-45A6-ACE1-71D58694F75D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B96FECA4-A046-45A6-ACE1-71D58694F75D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B96FECA4-A046-45A6-ACE1-71D58694F75D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B96FECA4-A046-45A6-ACE1-71D58694F75D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
