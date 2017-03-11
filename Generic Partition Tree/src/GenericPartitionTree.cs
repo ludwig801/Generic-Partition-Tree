@@ -162,11 +162,6 @@ namespace PartitionTree
 			return root.Items.Contains(item) || root.Subsections.Any(subsection => HasItem(item, subsection));
 		}
 
-		private int GetSectionCount(GenericPartitionTreeSection<TBoundary, TItem> section)
-		{
-			return 1 + section.Subsections.Sum(GetSectionCount);
-		}
-
 		public void AddItems(IEnumerable<TItem> items)
 		{
 			foreach (var item in items)
@@ -214,11 +209,6 @@ namespace PartitionTree
 		public IEnumerable<TItem> GetItemsWithinRadius(TItem item, float radius)
 		{
 			return GetItemsWithinBoundary(GetItemBoundary(item, radius));
-		}
-
-		public int GetSectionCount()
-		{
-			return GetSectionCount(Root);
 		}
 	}
 
