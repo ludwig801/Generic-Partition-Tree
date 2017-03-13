@@ -11,13 +11,17 @@ Partition trees are commonly used, for example, as a way of grouping related spa
 
 This library implement a generic approach for partition trees and provides usage examples for partition trees in 2D (QuadTree) and 3D (OctTree).
 
+====
+
 I would like to give a special thanks to [Pedro Silva](https://github.com/DeadalusVIII) and [João Jacob](https://github.com/kubinha), who helped me in the making of this repository.
+
+====
 
 ### Partition Tree Files
 
 * [GenericPartitionTree](../master/Generic Partition Tree/src/GenericPartitionTree.cs): Represents the base class, from which GenericQuadTree and GenericOctTree inherit. Implements the basic logic of partition trees.
-* [GenericQuadTree](../master/Generic Partition Tree/src/QuadTree/GenericQuadTree.cs): Represents the base class for partition trees in the 2D dimension. Any class which expects to partition space in 2-dimensional axes (X and Y) inherits from this class (see [QuadTree examples](#Quad-Tree-Examples)).
-* [GenericOctTree](../master/Generic Partition Tree/src/OctTree/GenericOctTree.cs): Represents the base class for partition trees in the 3D dimension. Any class which expects to partition space in all 3-dimensional axes (X, Y and Z) inherits from this class (see [OctTree examples](#Oct-Tree-Examples)).
+* [GenericQuadTree](../master/Generic Partition Tree/src/QuadTree/GenericQuadTree.cs): Represents the base class for partition trees in 2D. Any class which expects to partition space in 2-dimensional axes (X and Y) inherits from this class (see [QuadTree examples](#Quad-Tree-Examples)).
+* [GenericOctTree](../master/Generic Partition Tree/src/OctTree/GenericOctTree.cs): Represents the base class for partition trees in 3D. Any class which expects to partition space in all 3-dimensional axes (X, Y and Z) inherits from this class (see [OctTree examples](#Oct-Tree-Examples)).
 
 ### Quad Tree Examples
 
